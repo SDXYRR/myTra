@@ -1,0 +1,27 @@
+<div id="total">
+    <div class="left">
+        <img [src]="CmData.poster.origin" alt="">
+    </div>
+    <div class="right">
+        <div class="top">
+            <h4>
+                {{CmData.name}}
+            </h4>
+            <span>
+             
+                  &gt;
+             </span>
+        </div>
+        <h6>
+            {{CmData.intro}}
+        </h6>
+        <div class="bottom">
+            <span>
+            {{CmData.premiereAt|date:'MM月dd日'}}上映
+          </span>
+            <span>
+              {{CmData.premiereAt|getDays}}
+           </span>
+        </div>
+    </div>
+</div>

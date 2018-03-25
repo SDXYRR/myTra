@@ -1,0 +1,47 @@
+#total {
+    width: 100%;
+    border-bottom: 1px dotted #ccc;
+    padding: 14px 0;
+    display: flex;
+    flex-direction: row;
+    .left {
+        width: 24%;
+        img {
+            width: 100%;
+        }
+    }
+    .right {
+        padding: 6px 12px;
+        width: 80%;
+        .top {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            line-height: 20px;
+            h4 {
+                font-size: 16px;
+                font-weight: normal;
+            }
+            span {
+                font-style: normal;
+                font-size: 16px;
+                color: #c3c3c3;
+            }
+        }
+        h6 {
+            font-weight: normal;
+            color: #8a8989;
+            margin: 10px 0;
+        }
+        .bottom {
+            span {
+                color: #ff946c;
+                margin-right: 14px;
+                em {
+                    color: #ff946c;
+                    font-style: normal;
+                }
+            }
+        }
+    }
+}
